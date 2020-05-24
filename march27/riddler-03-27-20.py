@@ -1,6 +1,17 @@
 import random
 import statistics as stat
 import math
+"""
+These are solutions to The Riddler, March 27th, 2020.
+
+Express: call gloves with the number of gloves in the box as an arg.
+Classic: call average_num_rolls with the number of faces on the Die
+and number of trials to run as args.
+
+Author: Aryan Agrawal
+Questions? Contact me at aryanagrawal@berkeley.edu
+"""
+
 
 def gloves(total_gloves):
     if total_gloves < 0:
